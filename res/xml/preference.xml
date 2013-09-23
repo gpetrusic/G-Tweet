@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:entries="@array/delayNames"
+        android:entryValues="@array/delayValues"
+        android:key="delay"
+        android:summary="@string/delay_summary"
+        android:title="@string/delay" />
+
+</PreferenceScreen>
